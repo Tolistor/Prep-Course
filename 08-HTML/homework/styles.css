@@ -1,3 +1,11 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/db/42/e7/db42e7230299fc6cfa10dda7c8f13729.jpg);
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 h1 {
     color: red;
 }
@@ -8,13 +16,31 @@ img {
 
 #thirdDiv {
     height: 600px;
-    width: 500px;
+    width: auto;
     background-color: blue;
     padding: 50px;
     border: 2px solid black;
+    text-align: center;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #spanId {
     font-size: 18px;
     margin: 50px;
+}
+
+#contenido {
+    width: 800px;
+    margin: 0 auto;
+}
+
+div {
+    text-align: center;
+}
+
+a {
+    color: red;
 }
